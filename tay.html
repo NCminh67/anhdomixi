@@ -87,11 +87,11 @@
     <div id="kanji-bg" class="bg-kanji"></div>
 
     <div id="content-wrapper">
-        <div id="text" class="main-text">conchodungo.</div>
+        <div id="text" class="main-text">conchominhcong.</div>
         <div id="big-word" class="single-word"></div>
     </div>
 
-    <div class="hint">TÀY CHỘ NÀY ( CICK )</div>
+    <div class="hint">  VUI CHỘ NÀO ( CICK )</div>
 
     <script>
         const mainMusic = document.getElementById('mainMusic');
@@ -117,7 +117,7 @@
             "KHÔ GÀ ĐÈ TEM ĂN HẾT VẪN CÒN THÒM THÈM."
         ];
 
-        const bigWords = ["CHÓ", "ĐỘ", "LÔZ", "KHÔ GÀ", "ALO VŨ À"];
+        const bigWords = ["CHÓ", "ĐỘ", "TÀY", "KHÔ GÀ", "ALO MINH À"];
         const kanjis = ["岱", "自", "父", "何", "見", "哪"]; 
 
         // Hiệu ứng Kanji bay
@@ -168,7 +168,7 @@
                     bigWordDiv.innerText = word;
                     bigWordDiv.style.display = 'block';
 
-                    if (word === "ALO VŨ À") {
+                    if (word === "ALO MINH À") {
                         mainMusic.volume = 0.05; 
                         vuMusic.volume = VU_VOL;
                         vuMusic.currentTime = 0;
